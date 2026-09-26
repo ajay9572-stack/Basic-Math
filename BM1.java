@@ -11,14 +11,14 @@ public class BM1{
           if(n<=1){
             return false;
           }
-          int c = 2;     // c means start, starting prime no.
+          int c = 2;      // Start checking divisibility from 2
           while(c*c <= n){
             if(n%c == 0){
                 return  false;
             }
-            c++;            //increase the prime no. 2 3 5....
+            c++;            // Move to the next possible divisor
           }
-          return true;
+          return true;         // If no divisor was found, n is prime
 
     }
 }
