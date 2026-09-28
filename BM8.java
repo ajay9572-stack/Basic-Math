@@ -12,8 +12,6 @@ public class BM8 {
             b = a % b;
             a = temp;
         }
-        System.out.println("HCF = " + a);
-
-        sc.close();
+        System.out.println("HCF: " + a);
     }
 }
