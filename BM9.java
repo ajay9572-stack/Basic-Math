@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//lcm of two no.
 
 public class BM9 {
     public static void main(String[] args) {
