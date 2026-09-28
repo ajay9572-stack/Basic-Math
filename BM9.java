@@ -16,7 +16,6 @@ public class BM9 {
         }
         int gcd = x;
         int lcm = Math.abs(a * b) / gcd;
-        System.out.println("LCM = " + lcm);
-        sc.close();
+        System.out.println("LCM: " + lcm);
     }
 }
