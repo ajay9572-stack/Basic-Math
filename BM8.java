@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// hcf of two number
 
 public class BM8 {
     public static void main(String[] args) {
